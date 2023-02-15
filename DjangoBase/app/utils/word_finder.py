@@ -1,6 +1,4 @@
 L = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune']
-M = ['lslikrsjalbc', 'bupceepcikye','labhgcegthaw','ghvuqkvylwvp','qjjjzgodkahg','fmdvdqrzleky',
-     'qsheccfcrdgxb','niprfeudenhl','sojkgrefdfsf','fsefnrbtuksj']
 
 class WordFinder:
     def __init__(self, L):
@@ -39,6 +37,6 @@ class WordFinder:
         
         return longest
     
-finder = WordFinder(M)
-longest = finder.longest_word('asbupkyeqw')
+finder = WordFinder(L)
+longest = finder.longest_word('ajsxuytcnhre')
 print(longest)
